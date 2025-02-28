@@ -1,0 +1,22 @@
+# **環境変数ファイル**
+backend/.env
+frontend/.env
+
+# **Node.js の依存関係**
+backend/node_modules/
+frontend/node_modules/
+
+# **ビルド・テスト関連**
+backend/coverage/
+backend/build/
+frontend/build/
+frontend/coverage/
+
+# **OS関連の不要ファイル**
+.DS_Store
+Thumbs.db
+
+# **デバッグログ**
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
